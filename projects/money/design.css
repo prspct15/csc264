@@ -1,0 +1,45 @@
+body {
+  background-color: #2ecc71;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  animation: fadeInB 1.5s infinite
+}
+
+p {
+  color: #ecf0f1;
+  font-size: 10em;
+  animation: fadeInA 1.5s infinite;
+  border: 2em fadeInA;
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  #text {
+    font-size: 5em;
+    margin-top: 40%;
+  }
+}
+
+@keyframes fadeInA {
+  0% {
+    color: #ecf0f1;
+  }
+  50% {
+    color: #2ecc71;
+  }
+  100% {
+    color: #ecf0f1;
+}
+}
+
+@keyframes fadeInB {
+  0% {
+    background-color: #2ecc71;
+  }
+  50% {
+    background-color: #ecf0f1;
+  }
+  100% {
+    background-color: #2ecc71;
+  }
+}
