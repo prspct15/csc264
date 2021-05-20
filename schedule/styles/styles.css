@@ -41,6 +41,21 @@ a {
 .gren{
     color: #16A085;
 }
+
 .blu{
     color: #2980B9;
+}
+
+.red{
+    color: #f62a66;
+}
+
+a:visited{
+    color: #f62a66;
+}
+
+.bottomtext,.gren,.blu,.red{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }

@@ -2,7 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background: black;
+  background: #121212;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ canvas {
 }
 .heading{
    position: center;
-   padding-left: 3.1em;
+   padding-left: 4.9em;
 }
 .text-box {
   font-size: 60px;
@@ -25,7 +25,7 @@ canvas {
   letter-spacing: 7px;
   word-spacing: 12px;
   text-transform: uppercase;
-  color:rgb(238, 238, 238);
+  color:#eeeeee;
 }
 .button-wrapper {
   display: flex;
@@ -44,7 +44,7 @@ canvas {
   word-spacing: normal;
   letter-spacing: 5px;
   border: 1px solid white;
-  background: black;
+  background: #121212;
   cursor: pointer;
   color: white;
   text-decoration: none;
